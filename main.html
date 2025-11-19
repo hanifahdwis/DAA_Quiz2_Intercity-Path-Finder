@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Transport Route Checker</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<h2>Intercity Path Finder</h2>
+
+<div class="input-container">
+  <select id="startCity"></select>
+  <button onclick="reverseKota()" class="reverse-btn">⇄</button>
+  <select id="endCity"></select>
+</div>
+
+<button onclick="cekRute()" class="check-btn">Check Route</button>
+
+<div id="routeOutput"></div>
+
+<div id="map">
+  <svg id="lines"></svg>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
