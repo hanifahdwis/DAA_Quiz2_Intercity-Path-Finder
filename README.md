@@ -1,13 +1,13 @@
-# 🗺️ Intercity Path Finder
+# Intercity Path Finder
 
 **Intercity Path Finder** is a web-based tool designed to demonstrate the **Breadth-First Search (BFS)** algorithm by calculating the shortest route between various cities in East Java, Indonesia.
 
 
-## 🚀 Overview
+## Overview
 
 This project models a map of cities as a **Graph**, where cities represent *nodes* and the roads connecting them represent *edges*. Users can select a starting point and a destination to visualize how the algorithm traverses the graph to find the optimal connection.
 
-## ✨ Features
+## Features
 
 * **Interactive Route Checking:** Select a Start City and End City from the dropdown menu.
 * **BFS Algorithm Implementation:** Uses Breadth-First Search to ensure the shortest path is found in an unweighted graph.
@@ -18,7 +18,7 @@ This project models a map of cities as a **Graph**, where cities represent *node
 * **Route Reversal:** A quick-swap button to reverse the starting and destination points.
 * **Responsive UI:** Clean, pastel-themed user interface styled with CSS3.
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 * **HTML:** Structure of the application and SVG container.
 * **CSS:** Styling, flexbox layout, and visual transitions (`.highlight` class).
@@ -27,7 +27,7 @@ This project models a map of cities as a **Graph**, where cities represent *node
     * BFS Logic.
     * DOM manipulation for rendering nodes and lines.
 
-## 🧩 How it Works
+## How it Works
 
 1.  **The Data:** The map is stored as an object where keys are cities (e.g., "Surabaya", "Malang") and values are arrays of neighboring cities.
 2.  **The Algorithm:** When "Check Route" is clicked, the `BFS()` function initializes a queue and a visited set. It explores neighbor nodes layer-by-layer until the target city is found.
