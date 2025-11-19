@@ -16,7 +16,7 @@ This project models a map of cities as a **Graph**, where cities represent *node
     * Connections are drawn using SVG lines.
 * **Dynamic Highlighting:** The calculated path is visually highlighted on the map (changing nodes to purple and lines to red) for easy tracking.
 * **Route Reversal:** A quick-swap button to reverse the starting and destination points.
-* **Responsive UI:** Clean, pastel-themed user interface styled with CSS3.
+* **Responsive UI:** Clean, pastel-themed user interface styled with CSS.
 
 ## Tech Stack
 
