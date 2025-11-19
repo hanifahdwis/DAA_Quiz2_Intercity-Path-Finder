@@ -33,7 +33,7 @@ This project models a map of cities as a **Graph**, where cities represent *node
 2.  **The Algorithm:** When "Check Route" is clicked, the `BFS()` function initializes a queue and a visited set. It explores neighbor nodes layer-by-layer until the target city is found.
 3.  **The Visualization:** The script iterates through the result path and applies the `.highlight` CSS class to the relevant HTML elements.
 
-## 📦 Installation & Usage
+## Installation & Usage
 
 1.  Clone the repository:
     ```bash
@@ -43,7 +43,7 @@ This project models a map of cities as a **Graph**, where cities represent *node
 3.  Open `index.html` in any modern web browser.
 4.  Click the image to enter the main application, select your cities, and hit **Check Route**.
 
-## 🗺️ Map Coverage
+## Map Coverage
 
 The current dataset includes connections for the following cities:
 *Surabaya, Malang, Blitar, Kediri, Tulungagung, Trenggalek, Jombang, Madiun, Ponorogo, Lamongan, Bojonegoro, Probolinggo, Jember, Banyuwangi, Bondowoso*.
