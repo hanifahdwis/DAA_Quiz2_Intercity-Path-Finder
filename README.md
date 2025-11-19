@@ -1,6 +1,6 @@
 # Intercity Path Finder
 
-**Intercity Path Finder** is a web-based tool designed to demonstrate the **Breadth-First Search (BFS)** algorithm by calculating the shortest route between various cities in East Java, Indonesia.
+**Intercity Path Finder** is a web-based tool designed to demonstrate the **Breadth-First Search (BFS)** algorithm by calculating the shortest route between various cities.
 
 
 ## Overview
